@@ -7,10 +7,10 @@ body {
   min-height: 100vh;
   margin: 0 0 0 50px;
   width: 100%;
-  max-width: 800px;
+  max-width: 700px;
   padding: 0 30px;
   /* Gradient from black → dark gray → light gray → white */
-  background: linear-gradient(135deg, #000000, #2f2f2f, #7f7f7f, #ffffff);
+  background: linear-gradient(135deg, #000000, #282828, #6b6a6a, #acaaaa);
   color: #ffffff; /* text color */
   font-family: Arial, sans-serif;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ h2 {
 }
 
 p {
-  color: #cccccc;
+  color: #e3e0e0;
   width: 100%;
   max-width: 400px;
   margin-bottom: 10px;
@@ -93,6 +93,18 @@ p {
   }
   p {
     max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
   }
 }
 .social-icons img {
